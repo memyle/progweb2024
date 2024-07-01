@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles-login.css">
+    <script src="script.js" type="module" defer></script>
     <title>Login</title>
 
 </head>
@@ -17,13 +18,12 @@
         </nav>
     </header>
     <div>
-        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Email" id="emailLogin">
         <br><br>
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha" id="senhaLogin">
         <br><br>
         <p type="texto"> Não possui conta? <a href=cadastro.html>Clique aqui para cadastrar.</a></p>
-        <button id="loginButton"><b>ENTRAR</button></b>
+        <a href = index.html><button id="loginButton"><b>ENTRAR</button></b></a>
     </div>
-    <script src="login.js"></script>
 </body>
 </html>

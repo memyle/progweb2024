@@ -388,15 +388,15 @@ img {
                     }
                 }
                 .bubble.me::before {
-                    content: '';
+                    /* content: '';
                     position: absolute;
-                    left: -20px; /* Posição do ícone em relação à div da mensagem */
+                    left: -20px; 
                     top: 50%;
                     transform: translateY(-50%);
-                    width: 16px; /* Largura do ícone */
-                    height: 16px; /* Altura do ícone */
-                    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BUJZ8lOCQXN7Eb_ZsklCmKL-j7uOFVU3p19RpQqfZw&s'); /* Substitua pelo caminho do seu ícone de lápis */
-                    background-size: cover;
+                    width: 16px; 
+                    height: 16px; 
+                    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BUJZ8lOCQXN7Eb_ZsklCmKL-j7uOFVU3p19RpQqfZw&s');
+                    background-size: cover; */
                 }
             }
         }
@@ -530,4 +530,3 @@ img {
             }
         }
     }
-  

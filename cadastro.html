@@ -5,9 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles-login.css">
-        <script src="script.js"></script>
+        <script src="script.js" type="module" defer></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
       </head>
 <body>
     <header class="purple-bg">
@@ -18,15 +17,14 @@
         </nav>
     </header>
     <div>
-        <input type="text" placeholder="Nome Completo">
+        <input type="text" placeholder="Nome Completo" id="nome">
         <br><br>
-        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="E-mail" id="email" required>
         <br><br>
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha" id="senha">
         <br><br>
         <p type="texto"> Já possui conta? <a href=login.html> Clique aqui para entrar.</a> </p>
-        <button id="loginButton"><b>CADASTRAR</button></b>
+        <a href = index.html><button id="submit"  ><b>CADASTRAR</button></b></a>
     </div>
-        <script src="login.js"></script>
 </body>
 </html>
