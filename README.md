@@ -21,7 +21,7 @@ ChatTDB é um aplicativo de chat em tempo real, similar ao WhatsApp, desenvolvid
 
 - `index.html`: Página principal de mensagens.
 - `login.html`: Página de login.
-- `register.html`: Página de cadastro.
+- `cadastro.html`: Página de cadastro.
 - `profile.html`: Página de perfil.
 - `styles/`: Pasta contendo os arquivos CSS.
 - `scripts/`: Pasta contendo os arquivos JavaScript.
@@ -45,7 +45,7 @@ ChatTDB é um aplicativo de chat em tempo real, similar ao WhatsApp, desenvolvid
 
 ### Cadastro de Usuário
 
-1. Navegue até a página de cadastro (`register.html`).
+1. Navegue até a página de cadastro (`cadastro.html`).
 2. Insira seu e-mail e senha para criar uma nova conta.
 
 ### Login
