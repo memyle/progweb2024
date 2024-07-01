@@ -25,8 +25,6 @@ ChatTDB é um aplicativo de chat em tempo real, similar ao WhatsApp, desenvolvid
 - `profile.html`: Página de perfil.
 - `styles/`: Pasta contendo os arquivos CSS.
 - `scripts/`: Pasta contendo os arquivos JavaScript.
-- `images/`: Pasta para armazenar imagens e ícones.
-
 ## Como Executar o Projeto
 
 1. Clone o repositório para sua máquina local.
